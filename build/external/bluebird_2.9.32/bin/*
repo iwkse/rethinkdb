@@ -1,0 +1,4 @@
+#!/bin/sh
+export PATH='/home/sal/data/node/14.17.6/bin':$PATH
+export NODE_PATH='/home/sal/src/iwkse/rethinkdb/build/external/bluebird_2.9.32/node_modules/packed-bluebird/node_modules'
+exec /home/sal/src/iwkse/rethinkdb/build/external/bluebird_2.9.32/node_modules/packed-bluebird/node_modules/.bin/* "$@"

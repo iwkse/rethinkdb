@@ -1,0 +1,59 @@
++ pkg_depends_env
+++ pkg_depends
+++ true
++ pkg_fetch
++ test -n https://github.com/google/re2/archive/2015-11-01.tar.gz
++ pkg_fetch_archive
++ pkg_make_tmp_fetch_dir
+++ mktemp -d /home/sal/src/iwkse/rethinkdb/external/re2_2015-11-01.fetch-XXXXXXXX
++ tmp_dir=/home/sal/src/iwkse/rethinkdb/external/re2_2015-11-01.fetch-9pewtNNz
++ local archive_name=2015-11-01.tar.gz
++ local archive=/home/sal/src/iwkse/rethinkdb/external/.cache/2015-11-01.tar.gz
++ local actual_sha1
++ [[ -e /home/sal/src/iwkse/rethinkdb/external/.cache/2015-11-01.tar.gz ]]
++ [[ ! -e /home/sal/src/iwkse/rethinkdb/external/.cache/2015-11-01.tar.gz ]]
++ local url
++ mkdir -p /home/sal/src/iwkse/rethinkdb/external/.cache
++ geturl https://github.com/google/re2/archive/2015-11-01.tar.gz /home/sal/src/iwkse/rethinkdb/external/.cache/2015-11-01.tar.gz
++ [[ -n /usr/bin/curl ]]
++ /usr/bin/curl --silent -S --fail --location https://github.com/google/re2/archive/2015-11-01.tar.gz -o /home/sal/src/iwkse/rethinkdb/external/.cache/2015-11-01.tar.gz
++ url=https://github.com/google/re2/archive/2015-11-01.tar.gz
++ [[ 1 = 1 ]]
+++ getsha1 /home/sal/src/iwkse/rethinkdb/external/.cache/2015-11-01.tar.gz
+++ hash openssl
+++ openssl sha1 /home/sal/src/iwkse/rethinkdb/external/.cache/2015-11-01.tar.gz
+++ awk '{print $NF}'
++ actual_sha1=52b24d0994e08004a2c81acb2fb4f255fe1a7378
++ [[ 52b24d0994e08004a2c81acb2fb4f255fe1a7378 != \5\2\b\2\4\d\0\9\9\4\e\0\8\0\0\4\a\2\c\8\1\a\c\b\2\f\b\4\f\2\5\5\f\e\1\a\7\3\7\8 ]]
++ pkg_extract /home/sal/src/iwkse/rethinkdb/external/re2_2015-11-01.fetch-9pewtNNz /home/sal/src/iwkse/rethinkdb/external/.cache/2015-11-01.tar.gz
++ local ext
++ case "$2" in
++ in_dir /home/sal/src/iwkse/rethinkdb/external/re2_2015-11-01.fetch-9pewtNNz tar -xzf /home/sal/src/iwkse/rethinkdb/external/.cache/2015-11-01.tar.gz
++ local dir=/home/sal/src/iwkse/rethinkdb/external/re2_2015-11-01.fetch-9pewtNNz
++ shift
++ cd /home/sal/src/iwkse/rethinkdb/external/re2_2015-11-01.fetch-9pewtNNz
++ tar -xzf /home/sal/src/iwkse/rethinkdb/external/.cache/2015-11-01.tar.gz
++ set -- /home/sal/src/iwkse/rethinkdb/external/re2_2015-11-01.fetch-9pewtNNz/re2-2015-11-01/
++ [[ 1 != 1 ]]
++ pkg_patch /home/sal/src/iwkse/rethinkdb/external/re2_2015-11-01.fetch-9pewtNNz/re2-2015-11-01/
++ for patch in "$pkg_dir"/patch/"$pkg"_*.patch
++ case "$patch" in
++ in_dir /home/sal/src/iwkse/rethinkdb/external/re2_2015-11-01.fetch-9pewtNNz/re2-2015-11-01/ patch -p1
++ local dir=/home/sal/src/iwkse/rethinkdb/external/re2_2015-11-01.fetch-9pewtNNz/re2-2015-11-01/
++ shift
++ cd /home/sal/src/iwkse/rethinkdb/external/re2_2015-11-01.fetch-9pewtNNz/re2-2015-11-01/
++ patch -p1
+patching file Makefile
++ for patch in "$pkg_dir"/patch/"$pkg"_*.patch
++ case "$patch" in
++ in_dir /home/sal/src/iwkse/rethinkdb/external/re2_2015-11-01.fetch-9pewtNNz/re2-2015-11-01/ patch -p1
++ local dir=/home/sal/src/iwkse/rethinkdb/external/re2_2015-11-01.fetch-9pewtNNz/re2-2015-11-01/
++ shift
++ cd /home/sal/src/iwkse/rethinkdb/external/re2_2015-11-01.fetch-9pewtNNz/re2-2015-11-01/
++ patch -p1
+patching file re2.sln
+patching file re2.vcxproj
++ test -e /home/sal/src/iwkse/rethinkdb/external/re2_2015-11-01
++ mv /home/sal/src/iwkse/rethinkdb/external/re2_2015-11-01.fetch-9pewtNNz/re2-2015-11-01/ /home/sal/src/iwkse/rethinkdb/external/re2_2015-11-01
++ pkg_remove_tmp_fetch_dir
++ rm -rf /home/sal/src/iwkse/rethinkdb/external/re2_2015-11-01.fetch-9pewtNNz

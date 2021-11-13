@@ -1,0 +1,44 @@
++ pkg_depends_env
+++ pkg_depends
+++ true
++ pkg_fetch
++ test -n https://github.com/jemalloc/jemalloc/releases/download/4.5.0/jemalloc-4.5.0.tar.bz2
++ pkg_fetch_archive
++ pkg_make_tmp_fetch_dir
+++ mktemp -d /home/sal/src/iwkse/rethinkdb/external/jemalloc_4.5.0.fetch-XXXXXXXX
++ tmp_dir=/home/sal/src/iwkse/rethinkdb/external/jemalloc_4.5.0.fetch-Dj4NDEl7
++ local archive_name=jemalloc-4.5.0.tar.bz2
++ local archive=/home/sal/src/iwkse/rethinkdb/external/.cache/jemalloc-4.5.0.tar.bz2
++ local actual_sha1
++ [[ -e /home/sal/src/iwkse/rethinkdb/external/.cache/jemalloc-4.5.0.tar.bz2 ]]
++ [[ ! -e /home/sal/src/iwkse/rethinkdb/external/.cache/jemalloc-4.5.0.tar.bz2 ]]
++ local url
++ mkdir -p /home/sal/src/iwkse/rethinkdb/external/.cache
++ geturl https://github.com/jemalloc/jemalloc/releases/download/4.5.0/jemalloc-4.5.0.tar.bz2 /home/sal/src/iwkse/rethinkdb/external/.cache/jemalloc-4.5.0.tar.bz2
++ [[ -n /usr/bin/curl ]]
++ /usr/bin/curl --silent -S --fail --location https://github.com/jemalloc/jemalloc/releases/download/4.5.0/jemalloc-4.5.0.tar.bz2 -o /home/sal/src/iwkse/rethinkdb/external/.cache/jemalloc-4.5.0.tar.bz2
++ url=https://github.com/jemalloc/jemalloc/releases/download/4.5.0/jemalloc-4.5.0.tar.bz2
++ [[ 1 = 1 ]]
+++ getsha1 /home/sal/src/iwkse/rethinkdb/external/.cache/jemalloc-4.5.0.tar.bz2
+++ hash openssl
+++ openssl sha1 /home/sal/src/iwkse/rethinkdb/external/.cache/jemalloc-4.5.0.tar.bz2
+++ awk '{print $NF}'
++ actual_sha1=e7714d070c623bff9acf682e9d52c930e491acd8
++ [[ e7714d070c623bff9acf682e9d52c930e491acd8 != \e\7\7\1\4\d\0\7\0\c\6\2\3\b\f\f\9\a\c\f\6\8\2\e\9\d\5\2\c\9\3\0\e\4\9\1\a\c\d\8 ]]
++ pkg_extract /home/sal/src/iwkse/rethinkdb/external/jemalloc_4.5.0.fetch-Dj4NDEl7 /home/sal/src/iwkse/rethinkdb/external/.cache/jemalloc-4.5.0.tar.bz2
++ local ext
++ case "$2" in
++ in_dir /home/sal/src/iwkse/rethinkdb/external/jemalloc_4.5.0.fetch-Dj4NDEl7 tar -xjf /home/sal/src/iwkse/rethinkdb/external/.cache/jemalloc-4.5.0.tar.bz2
++ local dir=/home/sal/src/iwkse/rethinkdb/external/jemalloc_4.5.0.fetch-Dj4NDEl7
++ shift
++ cd /home/sal/src/iwkse/rethinkdb/external/jemalloc_4.5.0.fetch-Dj4NDEl7
++ tar -xjf /home/sal/src/iwkse/rethinkdb/external/.cache/jemalloc-4.5.0.tar.bz2
++ set -- /home/sal/src/iwkse/rethinkdb/external/jemalloc_4.5.0.fetch-Dj4NDEl7/jemalloc-4.5.0/
++ [[ 1 != 1 ]]
++ pkg_patch /home/sal/src/iwkse/rethinkdb/external/jemalloc_4.5.0.fetch-Dj4NDEl7/jemalloc-4.5.0/
++ for patch in "$pkg_dir"/patch/"$pkg"_*.patch
++ case "$patch" in
++ test -e /home/sal/src/iwkse/rethinkdb/external/jemalloc_4.5.0
++ mv /home/sal/src/iwkse/rethinkdb/external/jemalloc_4.5.0.fetch-Dj4NDEl7/jemalloc-4.5.0/ /home/sal/src/iwkse/rethinkdb/external/jemalloc_4.5.0
++ pkg_remove_tmp_fetch_dir
++ rm -rf /home/sal/src/iwkse/rethinkdb/external/jemalloc_4.5.0.fetch-Dj4NDEl7

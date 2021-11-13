@@ -1,0 +1,57 @@
++ pkg_depends_env
+++ pkg_depends
+++ will_fetch node
+++ contains 'protobuf coffee-script browserify bluebird admin-deps gtest boost v8 re2 jemalloc' node
+++ local 'd= protobuf coffee-script browserify bluebird admin-deps gtest boost v8 re2 jemalloc '
+++ '[' ' protobuf coffee-script browserify bluebird admin-deps gtest boost v8 re2 jemalloc ' '!=' ' protobuf coffee-script browserify bluebird admin-deps gtest boost v8 re2 jemalloc ' ']'
++ pkg_install
++ full_npm_package=packed-coffee-script
++ rm -rf /home/sal/src/iwkse/rethinkdb/build/external/coffee-script_1.10.0
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/coffee-script_1.10.0/node_modules
++ local pkg
+++ niceabspath /home/sal/src/iwkse/rethinkdb/external/coffee-script_1.10.0
+++ [[ -d /home/sal/src/iwkse/rethinkdb/external/coffee-script_1.10.0 ]]
+++ cd /home/sal/src/iwkse/rethinkdb/external/coffee-script_1.10.0
+++ pwd
+++ return
++ pkg=/home/sal/src/iwkse/rethinkdb/external/coffee-script_1.10.0
++ [[ Linux = Windows ]]
++ in_dir /home/sal/src/iwkse/rethinkdb/build/external/coffee-script_1.10.0 npm install /home/sal/src/iwkse/rethinkdb/external/coffee-script_1.10.0
++ local dir=/home/sal/src/iwkse/rethinkdb/build/external/coffee-script_1.10.0
++ shift
++ cd /home/sal/src/iwkse/rethinkdb/build/external/coffee-script_1.10.0
++ npm install /home/sal/src/iwkse/rethinkdb/external/coffee-script_1.10.0
+++ mktemp -d /home/sal/src/iwkse/rethinkdb/external/npm_cache-XXXXXXXX
++ cache_dir=/home/sal/src/iwkse/rethinkdb/external/npm_cache-AOP7uV9I
++ [[ Linux = Windows ]]
++ /home/sal/data/node/14.17.6/bin/npm --userconfig /home/sal/src/iwkse/rethinkdb/mk/support/config/npm.conf --cache /home/sal/src/iwkse/rethinkdb/external/npm_cache-AOP7uV9I install /home/sal/src/iwkse/rethinkdb/external/coffee-script_1.10.0
+npm http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 556ms
+
+added 1 package, and audited 3 packages in 995ms
+
+found 0 vulnerabilities
++ rm -rf /home/sal/src/iwkse/rethinkdb/external/npm_cache-AOP7uV9I
++ local bin_dir=/home/sal/src/iwkse/rethinkdb/build/external/coffee-script_1.10.0/node_modules/packed-coffee-script/node_modules/.bin/
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/coffee-script_1.10.0/bin
++ for bin in "$bin_dir"*
++ local name
+++ basename '/home/sal/src/iwkse/rethinkdb/build/external/coffee-script_1.10.0/node_modules/packed-coffee-script/node_modules/.bin/*'
++ name='*'
++ local 'script=/home/sal/src/iwkse/rethinkdb/build/external/coffee-script_1.10.0/bin/*'
++ echo '#!/bin/sh'
+++ dirname /home/sal/data/node/14.17.6/bin/npm
++ echo 'export PATH='\''/home/sal/data/node/14.17.6/bin'\'':$PATH'
+++ cpdir /home/sal/src/iwkse/rethinkdb/build/external/coffee-script_1.10.0/node_modules/packed-coffee-script/node_modules
+++ [[ Linux = Windows ]]
+++ printf %s /home/sal/src/iwkse/rethinkdb/build/external/coffee-script_1.10.0/node_modules/packed-coffee-script/node_modules
++ echo 'export NODE_PATH='\''/home/sal/src/iwkse/rethinkdb/build/external/coffee-script_1.10.0/node_modules/packed-coffee-script/node_modules'\'''
+++ niceabspath '/home/sal/src/iwkse/rethinkdb/build/external/coffee-script_1.10.0/node_modules/packed-coffee-script/node_modules/.bin/*'
+++ [[ -d /home/sal/src/iwkse/rethinkdb/build/external/coffee-script_1.10.0/node_modules/packed-coffee-script/node_modules/.bin/* ]]
+++ local dir
++++ dirname '/home/sal/src/iwkse/rethinkdb/build/external/coffee-script_1.10.0/node_modules/packed-coffee-script/node_modules/.bin/*'
+++ dir=/home/sal/src/iwkse/rethinkdb/build/external/coffee-script_1.10.0/node_modules/packed-coffee-script/node_modules/.bin
+++ [[ -d /home/sal/src/iwkse/rethinkdb/build/external/coffee-script_1.10.0/node_modules/packed-coffee-script/node_modules/.bin ]]
+++ [[ / = / ]]
+++ echo '/home/sal/src/iwkse/rethinkdb/build/external/coffee-script_1.10.0/node_modules/packed-coffee-script/node_modules/.bin/*'
++ echo 'exec /home/sal/src/iwkse/rethinkdb/build/external/coffee-script_1.10.0/node_modules/packed-coffee-script/node_modules/.bin/* "$@"'
++ chmod +x '/home/sal/src/iwkse/rethinkdb/build/external/coffee-script_1.10.0/bin/*'

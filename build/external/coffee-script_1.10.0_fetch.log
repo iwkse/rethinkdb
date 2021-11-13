@@ -1,0 +1,82 @@
++ pkg_depends_env
+++ pkg_depends
+++ will_fetch node
+++ contains 'protobuf coffee-script browserify bluebird admin-deps gtest boost v8 re2 jemalloc' node
+++ local 'd= protobuf coffee-script browserify bluebird admin-deps gtest boost v8 re2 jemalloc '
+++ '[' ' protobuf coffee-script browserify bluebird admin-deps gtest boost v8 re2 jemalloc ' '!=' ' protobuf coffee-script browserify bluebird admin-deps gtest boost v8 re2 jemalloc ' ']'
++ pkg_fetch
++ pkg_make_tmp_fetch_dir
+++ mktemp -d /home/sal/src/iwkse/rethinkdb/external/coffee-script_1.10.0.fetch-XXXXXXXX
++ tmp_dir=/home/sal/src/iwkse/rethinkdb/external/coffee-script_1.10.0.fetch-oQ1KNaa4
++ cp /home/sal/src/iwkse/rethinkdb/mk/support/pkg/coffee-script.shrinkwrap /home/sal/src/iwkse/rethinkdb/external/coffee-script_1.10.0.fetch-oQ1KNaa4/npm-shrinkwrap.json
++ package_json
++ cat
++ mkdir /home/sal/src/iwkse/rethinkdb/external/coffee-script_1.10.0.fetch-oQ1KNaa4/node_modules
++ in_dir /home/sal/src/iwkse/rethinkdb/external/coffee-script_1.10.0.fetch-oQ1KNaa4 npm install
++ local dir=/home/sal/src/iwkse/rethinkdb/external/coffee-script_1.10.0.fetch-oQ1KNaa4
++ shift
++ cd /home/sal/src/iwkse/rethinkdb/external/coffee-script_1.10.0.fetch-oQ1KNaa4
++ npm install
+++ mktemp -d /home/sal/src/iwkse/rethinkdb/external/npm_cache-XXXXXXXX
++ cache_dir=/home/sal/src/iwkse/rethinkdb/external/npm_cache-lZacw5To
++ [[ Linux = Windows ]]
++ /home/sal/data/node/14.17.6/bin/npm --userconfig /home/sal/src/iwkse/rethinkdb/mk/support/config/npm.conf --cache /home/sal/src/iwkse/rethinkdb/external/npm_cache-lZacw5To install
+npm WARN ancient lockfile 
+npm WARN ancient lockfile The npm-shrinkwrap.json file was created with an old version of npm,
+npm WARN ancient lockfile so supplemental metadata must be fetched from the registry.
+npm WARN ancient lockfile 
+npm WARN ancient lockfile This is a one-time fix-up, please be patient...
+npm WARN ancient lockfile 
+npm http fetch GET 200 https://registry.npmjs.org/coffee-script 1110ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/coffee-script/-/coffee-script-1.10.0.tgz 468ms (cache miss)
+npm WARN deprecated coffee-script@1.10.0: CoffeeScript on NPM has moved to "coffeescript" (no hyphen)
+npm http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 796ms
+
+added 1 package, and audited 2 packages in 2s
+
+found 0 vulnerabilities
+npm notice 
+npm notice New major version of npm available! 7.22.0 -> 8.1.3
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v8.1.3>
+npm notice Run `npm install -g npm@8.1.3` to update!
+npm notice 
++ rm -rf /home/sal/src/iwkse/rethinkdb/external/npm_cache-lZacw5To
++ in_dir /home/sal/src/iwkse/rethinkdb/external/coffee-script_1.10.0.fetch-oQ1KNaa4 npm pack
++ local dir=/home/sal/src/iwkse/rethinkdb/external/coffee-script_1.10.0.fetch-oQ1KNaa4
++ shift
++ cd /home/sal/src/iwkse/rethinkdb/external/coffee-script_1.10.0.fetch-oQ1KNaa4
++ npm pack
+++ mktemp -d /home/sal/src/iwkse/rethinkdb/external/npm_cache-XXXXXXXX
++ cache_dir=/home/sal/src/iwkse/rethinkdb/external/npm_cache-CoTasxYt
++ [[ Linux = Windows ]]
++ /home/sal/data/node/14.17.6/bin/npm --userconfig /home/sal/src/iwkse/rethinkdb/mk/support/config/npm.conf --cache /home/sal/src/iwkse/rethinkdb/external/npm_cache-CoTasxYt pack
+npm notice 
+npm notice package: packed-coffee-script@1.10.0
+npm notice === Tarball Contents === 
+npm notice 267B npm-shrinkwrap.json
+npm notice 152B package.json       
+npm notice === Bundled Dependencies === 
+npm notice coffee-script
+npm notice === Tarball Details === 
+npm notice name:          packed-coffee-script                    
+npm notice version:       1.10.0                                  
+npm notice filename:      packed-coffee-script-1.10.0.tgz         
+npm notice package size:  70.0 kB                                 
+npm notice unpacked size: 338.0 kB                                
+npm notice shasum:        a5326b066568514c7636ae1d8855c288bb1395d7
+npm notice integrity:     sha512-9zrBCt5vuHjsj[...]J2xK86ICVVL4A==
+npm notice bundled deps:  1                                       
+npm notice bundled files: 0                                       
+npm notice own files:     29                                      
+npm notice total files:   29                                      
+npm notice 
+packed-coffee-script-1.10.0.tgz
++ rm -rf /home/sal/src/iwkse/rethinkdb/external/npm_cache-CoTasxYt
++ in_dir /home/sal/src/iwkse/rethinkdb/external/coffee-script_1.10.0.fetch-oQ1KNaa4 tar xf packed-coffee-script-1.10.0.tgz
++ local dir=/home/sal/src/iwkse/rethinkdb/external/coffee-script_1.10.0.fetch-oQ1KNaa4
++ shift
++ cd /home/sal/src/iwkse/rethinkdb/external/coffee-script_1.10.0.fetch-oQ1KNaa4
++ tar xf packed-coffee-script-1.10.0.tgz
++ mv /home/sal/src/iwkse/rethinkdb/external/coffee-script_1.10.0.fetch-oQ1KNaa4/package /home/sal/src/iwkse/rethinkdb/external/coffee-script_1.10.0
++ pkg_remove_tmp_fetch_dir
++ rm -rf /home/sal/src/iwkse/rethinkdb/external/coffee-script_1.10.0.fetch-oQ1KNaa4

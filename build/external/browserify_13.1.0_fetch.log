@@ -1,0 +1,342 @@
++ pkg_depends_env
+++ pkg_depends
+++ will_fetch node
+++ contains 'protobuf coffee-script browserify bluebird admin-deps gtest boost v8 re2 jemalloc' node
+++ local 'd= protobuf coffee-script browserify bluebird admin-deps gtest boost v8 re2 jemalloc '
+++ '[' ' protobuf coffee-script browserify bluebird admin-deps gtest boost v8 re2 jemalloc ' '!=' ' protobuf coffee-script browserify bluebird admin-deps gtest boost v8 re2 jemalloc ' ']'
++ pkg_fetch
++ pkg_make_tmp_fetch_dir
+++ mktemp -d /home/sal/src/iwkse/rethinkdb/external/browserify_13.1.0.fetch-XXXXXXXX
++ tmp_dir=/home/sal/src/iwkse/rethinkdb/external/browserify_13.1.0.fetch-vdxSozCY
++ cp /home/sal/src/iwkse/rethinkdb/mk/support/pkg/browserify.shrinkwrap /home/sal/src/iwkse/rethinkdb/external/browserify_13.1.0.fetch-vdxSozCY/npm-shrinkwrap.json
++ package_json
++ cat
++ mkdir /home/sal/src/iwkse/rethinkdb/external/browserify_13.1.0.fetch-vdxSozCY/node_modules
++ in_dir /home/sal/src/iwkse/rethinkdb/external/browserify_13.1.0.fetch-vdxSozCY npm install
++ local dir=/home/sal/src/iwkse/rethinkdb/external/browserify_13.1.0.fetch-vdxSozCY
++ shift
++ cd /home/sal/src/iwkse/rethinkdb/external/browserify_13.1.0.fetch-vdxSozCY
++ npm install
+++ mktemp -d /home/sal/src/iwkse/rethinkdb/external/npm_cache-XXXXXXXX
++ cache_dir=/home/sal/src/iwkse/rethinkdb/external/npm_cache-O7rHDb9k
++ [[ Linux = Windows ]]
++ /home/sal/data/node/14.17.6/bin/npm --userconfig /home/sal/src/iwkse/rethinkdb/mk/support/config/npm.conf --cache /home/sal/src/iwkse/rethinkdb/external/npm_cache-O7rHDb9k install
+npm WARN ancient lockfile 
+npm WARN ancient lockfile The npm-shrinkwrap.json file was created with an old version of npm,
+npm WARN ancient lockfile so supplemental metadata must be fetched from the registry.
+npm WARN ancient lockfile 
+npm WARN ancient lockfile This is a one-time fix-up, please be patient...
+npm WARN ancient lockfile 
+npm http fetch GET 200 https://registry.npmjs.org/JSONStream 456ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/jsonparse 629ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/browserify-zlib 196ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/assert 758ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/pako 179ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/umd 886ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/buffer 303ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/ieee754 173ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/isarray 169ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/base64-js 313ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/convert-source-map 131ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/through 1137ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/lodash.memoize 111ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/source-map 83ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/concat-stream 88ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/typedarray 130ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/readable-stream 115ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/core-util-is 115ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/browserify 1398ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/process-nextick-args 120ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/util-deprecate 115ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/browser-pack 1457ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/console-browserify 113ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/constants-browserify 82ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/browserify-des 69ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/browserify-cipher 85ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/crypto-browserify 121ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/des.js 68ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/browserify-sign 72ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/create-ecdh 80ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/browser-resolve 1643ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/create-hash 77ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/ripemd160 63ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/create-hmac 77ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/diffie-hellman 75ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/miller-rabin 77ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/public-encrypt 66ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/combine-source-map 777ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/pbkdf2 90ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/brorand 72ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/bn.js 76ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/evp_bytestokey 76ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/browserify-rsa 96ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/cipher-base 95ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/inline-source-map 790ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/minimalistic-assert 85ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/browserify-aes 76ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/buffer-xor 81ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/hash.js 78ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/elliptic 89ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/parse-asn1 91ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/asn1.js 92ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/deps-sort 72ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/events 91ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/domain-browser 145ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/glob 113ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/minimatch 86ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/brace-expansion 70ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/date-now 782ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/once 66ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/concat-map 87ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/path-is-absolute 53ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/has 53ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/wrappy 63ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/function-bind 46ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/https-browserify 43ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/inherits 42ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/is-buffer 54ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/randombytes 805ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/defined 767ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/duplexer2 760ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/acorn 95ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/inflight 786ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/balanced-match 799ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/htmlescape 788ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/insert-module-globals 800ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/lexical-scope 764ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/os-browserify 73ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/astw 804ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/jsonify 797ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/labeled-stream-splicer 806ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/stream-splicer 826ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/path-browserify 122ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/module-deps 851ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/querystring-es3 151ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/punycode 179ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/detective 822ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/resolve 105ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/stream-combiner2 817ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/sha.js 84ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/json-stable-stringify 77ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/shell-quote 73ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/path-platform 780ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/parents 851ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/stream-browserify 64ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/stream-http 65ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/builtin-status-codes 77ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/process 832ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/to-arraybuffer 71ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/read-only-stream 800ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/buffer-shims 838ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/minimist 75ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/through2 66ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/shasum 822ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/timers-browserify 58ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/array-filter 752ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/tty-browserify 58ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/url 49ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/util 45ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/querystring 75ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/array-map 786ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/array-reduce 819ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/syntax-error 266ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/vm-browserify 61ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/indexof 58ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/xtend 59ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/subarg 782ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/string_decoder 805ms (cache miss)
+npm http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 481ms
+npm http fetch GET 200 https://registry.npmjs.org/indexof/-/indexof-0.0.1.tgz 528ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/xtend/-/xtend-4.0.1.tgz 533ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/tty-browserify/-/tty-browserify-0.0.0.tgz 554ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz 553ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/syntax-error/-/syntax-error-1.1.6.tgz 578ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/subarg/-/subarg-1.0.0.tgz 586ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/to-arraybuffer/-/to-arraybuffer-1.0.1.tgz 670ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/url/-/url-0.11.0.tgz 699ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz 687ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/vm-browserify/-/vm-browserify-0.0.4.tgz 791ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/stream-browserify/-/stream-browserify-2.0.1.tgz 818ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/array-reduce/-/array-reduce-0.0.0.tgz 830ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/shell-quote/-/shell-quote-1.6.1.tgz 846ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/querystring/-/querystring-0.2.0.tgz 885ms (cache miss)
+npm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+npm http fetch GET 200 https://registry.npmjs.org/util/-/util-0.10.3.tgz 890ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/builtin-status-codes/-/builtin-status-codes-2.0.0.tgz 864ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/shasum/-/shasum-1.0.2.tgz 858ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/array-map/-/array-map-0.0.0.tgz 880ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/json-stable-stringify/-/json-stable-stringify-0.0.1.tgz 876ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/array-filter/-/array-filter-0.0.1.tgz 899ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/buffer-shims/-/buffer-shims-1.0.0.tgz 946ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/resolve/-/resolve-1.1.7.tgz 964ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/minimist/-/minimist-1.2.0.tgz 1007ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz 997ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-1.0.7.tgz 998ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/through2/-/through2-2.0.1.tgz 1046ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/parents/-/parents-1.0.1.tgz 987ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/read-only-stream/-/read-only-stream-2.0.0.tgz 1018ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/path-browserify/-/path-browserify-0.0.0.tgz 1015ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz 1085ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-1.0.7.tgz 1100ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz 1103ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/process/-/process-0.11.9.tgz 1051ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/stream-combiner2/-/stream-combiner2-1.1.1.tgz 1043ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz 1086ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz 1090ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/os-browserify/-/os-browserify-0.1.2.tgz 1079ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/insert-module-globals/-/insert-module-globals-7.0.1.tgz 1072ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/inherits/-/inherits-2.0.1.tgz 1091ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/has/-/has-1.0.1.tgz 1087ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/https-browserify/-/https-browserify-0.0.1.tgz 1103ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/path-platform/-/path-platform-0.11.15.tgz 1157ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/punycode/-/punycode-1.3.2.tgz 1175ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.0.tgz 1149ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/timers-browserify/-/timers-browserify-1.4.2.tgz 1266ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz 1159ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/querystring-es3/-/querystring-es3-0.2.1.tgz 1219ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz 1224ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.6.tgz 1199ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/once/-/once-1.4.0.tgz 1206ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/events/-/events-1.1.1.tgz 1208ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/jsonify/-/jsonify-0.0.0.tgz 1258ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/astw/-/astw-2.0.0.tgz 1253ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/htmlescape/-/htmlescape-1.1.1.tgz 1248ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/balanced-match/-/balanced-match-0.4.2.tgz 1229ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/deps-sort/-/deps-sort-2.0.0.tgz 1219ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/browserify-aes/-/browserify-aes-1.0.6.tgz 1213ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz 1259ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/duplexer2/-/duplexer2-0.1.4.tgz 1239ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/labeled-stream-splicer/-/labeled-stream-splicer-2.0.0.tgz 1300ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/minimalistic-assert/-/minimalistic-assert-1.0.0.tgz 1275ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/minimatch/-/minimatch-3.0.3.tgz 1327ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/stream-splicer/-/stream-splicer-2.0.0.tgz 1367ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/function-bind/-/function-bind-1.1.0.tgz 1350ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/browserify-rsa/-/browserify-rsa-4.0.1.tgz 1304ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/defined/-/defined-1.0.0.tgz 1334ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/public-encrypt/-/public-encrypt-4.0.0.tgz 1346ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/evp_bytestokey/-/evp_bytestokey-1.0.0.tgz 1390ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/brorand/-/brorand-1.0.6.tgz 1388ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/glob/-/glob-5.0.15.tgz 1453ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/buffer-xor/-/buffer-xor-1.0.3.tgz 1415ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/create-hmac/-/create-hmac-1.1.4.tgz 1392ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/lexical-scope/-/lexical-scope-1.2.0.tgz 1489ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/cipher-base/-/cipher-base-1.0.3.tgz 1430ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/readable-stream/-/readable-stream-2.1.5.tgz 1546ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/randombytes/-/randombytes-2.0.3.tgz 1440ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/stream-http/-/stream-http-2.4.0.tgz 1587ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/readable-stream/-/readable-stream-2.0.6.tgz 1617ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/acorn/-/acorn-2.7.0.tgz 1617ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/browserify-cipher/-/browserify-cipher-1.0.0.tgz 1452ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/miller-rabin/-/miller-rabin-4.0.0.tgz 1480ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/des.js/-/des.js-1.0.0.tgz 1470ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/create-ecdh/-/create-ecdh-4.0.0.tgz 1496ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/domain-browser/-/domain-browser-1.1.7.tgz 1567ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/constants-browserify/-/constants-browserify-1.0.0.tgz 1527ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/concat-stream/-/concat-stream-1.5.2.tgz 1533ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz 1532ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/diffie-hellman/-/diffie-hellman-5.0.2.tgz 1576ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/create-hash/-/create-hash-1.1.2.tgz 1573ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/browserify-des/-/browserify-des-1.0.0.tgz 1568ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-1.0.7.tgz 1555ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/detective/-/detective-4.3.1.tgz 1682ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/date-now/-/date-now-0.1.4.tgz 1573ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/sha.js/-/sha.js-2.4.5.tgz 1727ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/browserify-sign/-/browserify-sign-4.0.0.tgz 1600ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/lodash.memoize/-/lodash.memoize-3.0.4.tgz 1580ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/ripemd160/-/ripemd160-1.0.1.tgz 1617ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/console-browserify/-/console-browserify-1.1.0.tgz 1608ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz 1597ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/convert-source-map/-/convert-source-map-1.1.3.tgz 1582ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/hash.js/-/hash.js-1.0.3.tgz 1670ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/combine-source-map/-/combine-source-map-0.7.2.tgz 1615ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz 1605ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/is-buffer/-/is-buffer-1.1.4.tgz 1739ms (cache miss)
+npm WARN deprecated is-buffer@1.1.4: This version of 'is-buffer' is out-of-date. You must update to v1.1.6 or newer
+npm http fetch GET 200 https://registry.npmjs.org/crypto-browserify/-/crypto-browserify-3.11.0.tgz 1700ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz 1641ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz 1651ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/browser-resolve/-/browser-resolve-1.11.2.tgz 1628ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/umd/-/umd-3.0.1.tgz 1628ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/assert/-/assert-1.3.0.tgz 1643ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/ieee754/-/ieee754-1.1.6.tgz 1660ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/browser-pack/-/browser-pack-6.0.1.tgz 1652ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/inflight/-/inflight-1.0.5.tgz 1779ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/base64-js/-/base64-js-1.1.2.tgz 1681ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/bn.js/-/bn.js-4.11.6.tgz 1752ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/inline-source-map/-/inline-source-map-0.6.2.tgz 1700ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/readable-stream/-/readable-stream-2.0.6.tgz 1745ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/through/-/through-2.3.8.tgz 1706ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/asn1.js/-/asn1.js-4.8.0.tgz 1841ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/pbkdf2/-/pbkdf2-3.0.6.tgz 1816ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/acorn/-/acorn-1.2.2.tgz 1907ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/acorn/-/acorn-1.2.2.tgz 1905ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/browserify-zlib/-/browserify-zlib-0.1.4.tgz 1820ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/JSONStream/-/JSONStream-1.1.4.tgz 1828ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/source-map/-/source-map-0.5.6.tgz 1881ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/elliptic/-/elliptic-6.3.1.tgz 1950ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/pako/-/pako-0.2.9.tgz 1867ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/buffer/-/buffer-4.9.1.tgz 1881ms (cache miss)
+npm WARN deprecated buffer@4.9.1: This version of 'buffer' is out-of-date. You must update to v4.9.2 or newer
+npm http fetch GET 200 https://registry.npmjs.org/parse-asn1/-/parse-asn1-5.0.0.tgz 1966ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/module-deps/-/module-deps-4.0.7.tgz 2085ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/jsonparse/-/jsonparse-1.2.0.tgz 1948ms (cache miss)
+npm http fetch GET 200 https://registry.npmjs.org/browserify/-/browserify-13.1.0.tgz 2308ms (cache miss)
+
+added 132 packages, and audited 133 packages in 8s
+
+3 vulnerabilities (1 moderate, 2 high)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+npm notice 
+npm notice New major version of npm available! 7.22.0 -> 8.1.3
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v8.1.3>
+npm notice Run `npm install -g npm@8.1.3` to update!
+npm notice 
++ rm -rf /home/sal/src/iwkse/rethinkdb/external/npm_cache-O7rHDb9k
++ in_dir /home/sal/src/iwkse/rethinkdb/external/browserify_13.1.0.fetch-vdxSozCY npm pack
++ local dir=/home/sal/src/iwkse/rethinkdb/external/browserify_13.1.0.fetch-vdxSozCY
++ shift
++ cd /home/sal/src/iwkse/rethinkdb/external/browserify_13.1.0.fetch-vdxSozCY
++ npm pack
+++ mktemp -d /home/sal/src/iwkse/rethinkdb/external/npm_cache-XXXXXXXX
++ cache_dir=/home/sal/src/iwkse/rethinkdb/external/npm_cache-21M6reSV
++ [[ Linux = Windows ]]
++ /home/sal/data/node/14.17.6/bin/npm --userconfig /home/sal/src/iwkse/rethinkdb/mk/support/config/npm.conf --cache /home/sal/src/iwkse/rethinkdb/external/npm_cache-21M6reSV pack
+npm notice 
+npm notice package: packed-browserify@13.1.0
+npm notice === Tarball Contents === 
+npm notice 30.3kB npm-shrinkwrap.json
+npm notice 143B   package.json       
+npm notice === Bundled Dependencies === 
+npm notice browserify
+npm notice === Tarball Details === 
+npm notice name:          packed-browserify                       
+npm notice version:       13.1.0                                  
+npm notice filename:      packed-browserify-13.1.0.tgz            
+npm notice package size:  1.7 MB                                  
+npm notice unpacked size: 6.6 MB                                  
+npm notice shasum:        defa31d63dfd9114d12d13a7d727d244e3f73e08
+npm notice integrity:     sha512-DAp4Q/zMrdlyY[...]7Da+kgKrzzHpw==
+npm notice bundled deps:  1                                       
+npm notice bundled files: 0                                       
+npm notice own files:     2147                                    
+npm notice total files:   2147                                    
+npm notice 
+packed-browserify-13.1.0.tgz
+npm notice 
+npm notice New major version of npm available! 7.22.0 -> 8.1.3
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v8.1.3>
+npm notice Run `npm install -g npm@8.1.3` to update!
+npm notice 
++ rm -rf /home/sal/src/iwkse/rethinkdb/external/npm_cache-21M6reSV
++ in_dir /home/sal/src/iwkse/rethinkdb/external/browserify_13.1.0.fetch-vdxSozCY tar xf packed-browserify-13.1.0.tgz
++ local dir=/home/sal/src/iwkse/rethinkdb/external/browserify_13.1.0.fetch-vdxSozCY
++ shift
++ cd /home/sal/src/iwkse/rethinkdb/external/browserify_13.1.0.fetch-vdxSozCY
++ tar xf packed-browserify-13.1.0.tgz
++ mv /home/sal/src/iwkse/rethinkdb/external/browserify_13.1.0.fetch-vdxSozCY/package /home/sal/src/iwkse/rethinkdb/external/browserify_13.1.0
++ pkg_remove_tmp_fetch_dir
++ rm -rf /home/sal/src/iwkse/rethinkdb/external/browserify_13.1.0.fetch-vdxSozCY

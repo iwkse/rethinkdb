@@ -1,0 +1,85 @@
++ pkg_depends_env
+++ pkg_depends
+++ true
++ pkg_fetch
++ test -n http://commondatastorage.googleapis.com/chromium-browser-official/v8-3.30.33.16.tar.bz2
++ pkg_fetch_archive
++ pkg_make_tmp_fetch_dir
+++ mktemp -d /home/sal/src/iwkse/rethinkdb/external/v8_3.30.33.16-patched.fetch-XXXXXXXX
++ tmp_dir=/home/sal/src/iwkse/rethinkdb/external/v8_3.30.33.16-patched.fetch-5rGM8bYK
++ local archive_name=v8-3.30.33.16.tar.bz2
++ local archive=/home/sal/src/iwkse/rethinkdb/external/.cache/v8-3.30.33.16.tar.bz2
++ local actual_sha1
++ [[ -e /home/sal/src/iwkse/rethinkdb/external/.cache/v8-3.30.33.16.tar.bz2 ]]
++ [[ ! -e /home/sal/src/iwkse/rethinkdb/external/.cache/v8-3.30.33.16.tar.bz2 ]]
++ local url
++ mkdir -p /home/sal/src/iwkse/rethinkdb/external/.cache
++ geturl http://commondatastorage.googleapis.com/chromium-browser-official/v8-3.30.33.16.tar.bz2 /home/sal/src/iwkse/rethinkdb/external/.cache/v8-3.30.33.16.tar.bz2
++ [[ -n /usr/bin/curl ]]
++ /usr/bin/curl --silent -S --fail --location http://commondatastorage.googleapis.com/chromium-browser-official/v8-3.30.33.16.tar.bz2 -o /home/sal/src/iwkse/rethinkdb/external/.cache/v8-3.30.33.16.tar.bz2
++ url=http://commondatastorage.googleapis.com/chromium-browser-official/v8-3.30.33.16.tar.bz2
++ [[ 1 = 1 ]]
+++ getsha1 /home/sal/src/iwkse/rethinkdb/external/.cache/v8-3.30.33.16.tar.bz2
+++ hash openssl
+++ awk '{print $NF}'
+++ openssl sha1 /home/sal/src/iwkse/rethinkdb/external/.cache/v8-3.30.33.16.tar.bz2
++ actual_sha1=e753b6671eecf565d96c1e5a83563535ee2fe24b
++ [[ e753b6671eecf565d96c1e5a83563535ee2fe24b != \e\7\5\3\b\6\6\7\1\e\e\c\f\5\6\5\d\9\6\c\1\e\5\a\8\3\5\6\3\5\3\5\e\e\2\f\e\2\4\b ]]
++ pkg_extract /home/sal/src/iwkse/rethinkdb/external/v8_3.30.33.16-patched.fetch-5rGM8bYK /home/sal/src/iwkse/rethinkdb/external/.cache/v8-3.30.33.16.tar.bz2
++ local ext
++ case "$2" in
++ in_dir /home/sal/src/iwkse/rethinkdb/external/v8_3.30.33.16-patched.fetch-5rGM8bYK tar -xjf /home/sal/src/iwkse/rethinkdb/external/.cache/v8-3.30.33.16.tar.bz2
++ local dir=/home/sal/src/iwkse/rethinkdb/external/v8_3.30.33.16-patched.fetch-5rGM8bYK
++ shift
++ cd /home/sal/src/iwkse/rethinkdb/external/v8_3.30.33.16-patched.fetch-5rGM8bYK
++ tar -xjf /home/sal/src/iwkse/rethinkdb/external/.cache/v8-3.30.33.16.tar.bz2
++ set -- /home/sal/src/iwkse/rethinkdb/external/v8_3.30.33.16-patched.fetch-5rGM8bYK/v8-3.30.33.16/
++ [[ 1 != 1 ]]
++ pkg_patch /home/sal/src/iwkse/rethinkdb/external/v8_3.30.33.16-patched.fetch-5rGM8bYK/v8-3.30.33.16/
++ for patch in "$pkg_dir"/patch/"$pkg"_*.patch
++ case "$patch" in
++ in_dir /home/sal/src/iwkse/rethinkdb/external/v8_3.30.33.16-patched.fetch-5rGM8bYK/v8-3.30.33.16/ patch -p1
++ local dir=/home/sal/src/iwkse/rethinkdb/external/v8_3.30.33.16-patched.fetch-5rGM8bYK/v8-3.30.33.16/
++ shift
++ cd /home/sal/src/iwkse/rethinkdb/external/v8_3.30.33.16-patched.fetch-5rGM8bYK/v8-3.30.33.16/
++ patch -p1
+patching file build/all.gyp
++ for patch in "$pkg_dir"/patch/"$pkg"_*.patch
++ case "$patch" in
++ in_dir /home/sal/src/iwkse/rethinkdb/external/v8_3.30.33.16-patched.fetch-5rGM8bYK/v8-3.30.33.16/ patch -p1
++ local dir=/home/sal/src/iwkse/rethinkdb/external/v8_3.30.33.16-patched.fetch-5rGM8bYK/v8-3.30.33.16/
++ shift
++ cd /home/sal/src/iwkse/rethinkdb/external/v8_3.30.33.16-patched.fetch-5rGM8bYK/v8-3.30.33.16/
++ patch -p1
+patching file third_party/icu/source/common/Makefile.in
+patching file third_party/icu/source/data/Makefile.in
+patching file third_party/icu/source/extra/Makefile.in
+patching file third_party/icu/source/i18n/Makefile.in
+patching file third_party/icu/source/io/Makefile.in
+patching file third_party/icu/source/Makefile.in
+patching file third_party/icu/source/samples/Makefile.in
+patching file third_party/icu/source/stubdata/Makefile.in
+patching file third_party/icu/source/test/Makefile.in
+patching file third_party/icu/source/tools/Makefile.in
++ for patch in "$pkg_dir"/patch/"$pkg"_*.patch
++ case "$patch" in
++ in_dir /home/sal/src/iwkse/rethinkdb/external/v8_3.30.33.16-patched.fetch-5rGM8bYK/v8-3.30.33.16/ patch -p1
++ local dir=/home/sal/src/iwkse/rethinkdb/external/v8_3.30.33.16-patched.fetch-5rGM8bYK/v8-3.30.33.16/
++ shift
++ cd /home/sal/src/iwkse/rethinkdb/external/v8_3.30.33.16-patched.fetch-5rGM8bYK/v8-3.30.33.16/
++ patch -p1
+patching file include/v8.h
++ for patch in "$pkg_dir"/patch/"$pkg"_*.patch
++ case "$patch" in
++ in_dir /home/sal/src/iwkse/rethinkdb/external/v8_3.30.33.16-patched.fetch-5rGM8bYK/v8-3.30.33.16/ patch -p1
++ local dir=/home/sal/src/iwkse/rethinkdb/external/v8_3.30.33.16-patched.fetch-5rGM8bYK/v8-3.30.33.16/
++ shift
++ cd /home/sal/src/iwkse/rethinkdb/external/v8_3.30.33.16-patched.fetch-5rGM8bYK/v8-3.30.33.16/
++ patch -p1
+patching file src/compiler/instruction.h
+patch unexpectedly ends in middle of line
+Hunk #1 succeeded at 865 with fuzz 1.
++ test -e /home/sal/src/iwkse/rethinkdb/external/v8_3.30.33.16-patched
++ mv /home/sal/src/iwkse/rethinkdb/external/v8_3.30.33.16-patched.fetch-5rGM8bYK/v8-3.30.33.16/ /home/sal/src/iwkse/rethinkdb/external/v8_3.30.33.16-patched
++ pkg_remove_tmp_fetch_dir
++ rm -rf /home/sal/src/iwkse/rethinkdb/external/v8_3.30.33.16-patched.fetch-5rGM8bYK

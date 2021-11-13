@@ -1,0 +1,10 @@
+prefix=/home/sal/src/iwkse/rethinkdb/build/external/re2_2015-11-01
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${exec_prefix}/lib
+
+Name: re2
+Description: RE2 is a fast, safe, thread-friendly regular expression engine.
+Version: 0.0.0
+Cflags: -I${includedir}
+Libs: -L${libdir} -lre2 -pthread

@@ -1,0 +1,89 @@
++ pkg_depends_env
+++ pkg_depends
+++ true
++ pkg_install
++ pkg_copy_src_to_build
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/re2_2015-11-01/build
++ cp -af /home/sal/src/iwkse/rethinkdb/external/re2_2015-11-01/. /home/sal/src/iwkse/rethinkdb/build/external/re2_2015-11-01/build
++ pkg_make install prefix=/home/sal/src/iwkse/rethinkdb/build/external/re2_2015-11-01 'CXXFLAGS= -O3' 'LDFLAGS= -pthread'
++ in_dir /home/sal/src/iwkse/rethinkdb/build/external/re2_2015-11-01/build make install prefix=/home/sal/src/iwkse/rethinkdb/build/external/re2_2015-11-01 'CXXFLAGS= -O3' 'LDFLAGS= -pthread'
++ local dir=/home/sal/src/iwkse/rethinkdb/build/external/re2_2015-11-01/build
++ shift
++ cd /home/sal/src/iwkse/rethinkdb/build/external/re2_2015-11-01/build
++ make install prefix=/home/sal/src/iwkse/rethinkdb/build/external/re2_2015-11-01 'CXXFLAGS= -O3' 'LDFLAGS= -pthread'
+make[2]: Entering directory '/home/sal/src/iwkse/rethinkdb/build/external/re2_2015-11-01/build'
+/usr/bin/c++ -o obj/re2/prefilter.o  -O3 -Wsign-compare -c -I.    -DNDEBUG re2/prefilter.cc
+/usr/bin/c++ -o obj/re2/prefilter_tree.o  -O3 -Wsign-compare -c -I.    -DNDEBUG re2/prefilter_tree.cc
+/usr/bin/c++ -o obj/re2/prog.o  -O3 -Wsign-compare -c -I.    -DNDEBUG re2/prog.cc
+/usr/bin/c++ -o obj/re2/re2.o  -O3 -Wsign-compare -c -I.    -DNDEBUG re2/re2.cc
+/usr/bin/c++ -o obj/re2/regexp.o  -O3 -Wsign-compare -c -I.    -DNDEBUG re2/regexp.cc
+/usr/bin/c++ -o obj/re2/set.o  -O3 -Wsign-compare -c -I.    -DNDEBUG re2/set.cc
+/usr/bin/c++ -o obj/re2/simplify.o  -O3 -Wsign-compare -c -I.    -DNDEBUG re2/simplify.cc
+/usr/bin/c++ -o obj/re2/stringpiece.o  -O3 -Wsign-compare -c -I.    -DNDEBUG re2/stringpiece.cc
+/usr/bin/c++ -o obj/re2/tostring.o  -O3 -Wsign-compare -c -I.    -DNDEBUG re2/tostring.cc
+/usr/bin/c++ -o obj/re2/unicode_casefold.o  -O3 -Wsign-compare -c -I.    -DNDEBUG re2/unicode_casefold.cc
+/usr/bin/c++ -o obj/re2/unicode_groups.o  -O3 -Wsign-compare -c -I.    -DNDEBUG re2/unicode_groups.cc
+ar rv obj/libre2.a obj/util/hash.o obj/util/logging.o obj/util/rune.o obj/util/stringprintf.o obj/util/strutil.o obj/util/valgrind.o obj/re2/bitstate.o obj/re2/compile.o obj/re2/dfa.o obj/re2/filtered_re2.o obj/re2/mimics_pcre.o obj/re2/nfa.o obj/re2/onepass.o obj/re2/parse.o obj/re2/perl_groups.o obj/re2/prefilter.o obj/re2/prefilter_tree.o obj/re2/prog.o obj/re2/re2.o obj/re2/regexp.o obj/re2/set.o obj/re2/simplify.o obj/re2/stringpiece.o obj/re2/tostring.o obj/re2/unicode_casefold.o obj/re2/unicode_groups.o 
+ar: creating obj/libre2.a
+a - obj/util/hash.o
+a - obj/util/logging.o
+a - obj/util/rune.o
+a - obj/util/stringprintf.o
+a - obj/util/strutil.o
+a - obj/util/valgrind.o
+a - obj/re2/bitstate.o
+a - obj/re2/compile.o
+a - obj/re2/dfa.o
+a - obj/re2/filtered_re2.o
+a - obj/re2/mimics_pcre.o
+a - obj/re2/nfa.o
+a - obj/re2/onepass.o
+a - obj/re2/parse.o
+a - obj/re2/perl_groups.o
+a - obj/re2/prefilter.o
+a - obj/re2/prefilter_tree.o
+a - obj/re2/prog.o
+a - obj/re2/re2.o
+a - obj/re2/regexp.o
+a - obj/re2/set.o
+a - obj/re2/simplify.o
+a - obj/re2/stringpiece.o
+a - obj/re2/tostring.o
+a - obj/re2/unicode_casefold.o
+a - obj/re2/unicode_groups.o
+/usr/bin/c++ -o obj/so/util/hash.o -fPIC  -O3 -Wsign-compare -c -I.    -DNDEBUG util/hash.cc
+/usr/bin/c++ -o obj/so/util/logging.o -fPIC  -O3 -Wsign-compare -c -I.    -DNDEBUG util/logging.cc
+/usr/bin/c++ -o obj/so/util/rune.o -fPIC  -O3 -Wsign-compare -c -I.    -DNDEBUG util/rune.cc
+/usr/bin/c++ -o obj/so/util/stringprintf.o -fPIC  -O3 -Wsign-compare -c -I.    -DNDEBUG util/stringprintf.cc
+/usr/bin/c++ -o obj/so/util/strutil.o -fPIC  -O3 -Wsign-compare -c -I.    -DNDEBUG util/strutil.cc
+/usr/bin/c++ -o obj/so/util/valgrind.o -fPIC  -O3 -Wsign-compare -c -I.    -DNDEBUG util/valgrind.cc
+/usr/bin/c++ -o obj/so/re2/bitstate.o -fPIC  -O3 -Wsign-compare -c -I.    -DNDEBUG re2/bitstate.cc
+/usr/bin/c++ -o obj/so/re2/compile.o -fPIC  -O3 -Wsign-compare -c -I.    -DNDEBUG re2/compile.cc
+/usr/bin/c++ -o obj/so/re2/dfa.o -fPIC  -O3 -Wsign-compare -c -I.    -DNDEBUG re2/dfa.cc
+/usr/bin/c++ -o obj/so/re2/filtered_re2.o -fPIC  -O3 -Wsign-compare -c -I.    -DNDEBUG re2/filtered_re2.cc
+/usr/bin/c++ -o obj/so/re2/mimics_pcre.o -fPIC  -O3 -Wsign-compare -c -I.    -DNDEBUG re2/mimics_pcre.cc
+/usr/bin/c++ -o obj/so/re2/nfa.o -fPIC  -O3 -Wsign-compare -c -I.    -DNDEBUG re2/nfa.cc
+/usr/bin/c++ -o obj/so/re2/onepass.o -fPIC  -O3 -Wsign-compare -c -I.    -DNDEBUG re2/onepass.cc
+/usr/bin/c++ -o obj/so/re2/parse.o -fPIC  -O3 -Wsign-compare -c -I.    -DNDEBUG re2/parse.cc
+/usr/bin/c++ -o obj/so/re2/perl_groups.o -fPIC  -O3 -Wsign-compare -c -I.    -DNDEBUG re2/perl_groups.cc
+/usr/bin/c++ -o obj/so/re2/prefilter.o -fPIC  -O3 -Wsign-compare -c -I.    -DNDEBUG re2/prefilter.cc
+/usr/bin/c++ -o obj/so/re2/prefilter_tree.o -fPIC  -O3 -Wsign-compare -c -I.    -DNDEBUG re2/prefilter_tree.cc
+/usr/bin/c++ -o obj/so/re2/prog.o -fPIC  -O3 -Wsign-compare -c -I.    -DNDEBUG re2/prog.cc
+/usr/bin/c++ -o obj/so/re2/re2.o -fPIC  -O3 -Wsign-compare -c -I.    -DNDEBUG re2/re2.cc
+/usr/bin/c++ -o obj/so/re2/regexp.o -fPIC  -O3 -Wsign-compare -c -I.    -DNDEBUG re2/regexp.cc
+/usr/bin/c++ -o obj/so/re2/set.o -fPIC  -O3 -Wsign-compare -c -I.    -DNDEBUG re2/set.cc
+/usr/bin/c++ -o obj/so/re2/simplify.o -fPIC  -O3 -Wsign-compare -c -I.    -DNDEBUG re2/simplify.cc
+/usr/bin/c++ -o obj/so/re2/stringpiece.o -fPIC  -O3 -Wsign-compare -c -I.    -DNDEBUG re2/stringpiece.cc
+/usr/bin/c++ -o obj/so/re2/tostring.o -fPIC  -O3 -Wsign-compare -c -I.    -DNDEBUG re2/tostring.cc
+/usr/bin/c++ -o obj/so/re2/unicode_casefold.o -fPIC  -O3 -Wsign-compare -c -I.    -DNDEBUG re2/unicode_casefold.cc
+/usr/bin/c++ -o obj/so/re2/unicode_groups.o -fPIC  -O3 -Wsign-compare -c -I.    -DNDEBUG re2/unicode_groups.cc
+/usr/bin/c++ -shared -Wl,-soname,libre2.so.0,--version-script,libre2.symbols -pthread -o obj/so/libre2.so.0 obj/so/util/hash.o obj/so/util/logging.o obj/so/util/rune.o obj/so/util/stringprintf.o obj/so/util/strutil.o obj/so/util/valgrind.o obj/so/re2/bitstate.o obj/so/re2/compile.o obj/so/re2/dfa.o obj/so/re2/filtered_re2.o obj/so/re2/mimics_pcre.o obj/so/re2/nfa.o obj/so/re2/onepass.o obj/so/re2/parse.o obj/so/re2/perl_groups.o obj/so/re2/prefilter.o obj/so/re2/prefilter_tree.o obj/so/re2/prog.o obj/so/re2/re2.o obj/so/re2/regexp.o obj/so/re2/set.o obj/so/re2/simplify.o obj/so/re2/stringpiece.o obj/so/re2/tostring.o obj/so/re2/unicode_casefold.o obj/so/re2/unicode_groups.o
+ln -sf libre2.so.0 obj/so/libre2.so
+mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/re2_2015-11-01/include/re2 /home/sal/src/iwkse/rethinkdb/build/external/re2_2015-11-01/lib/pkgconfig
+install -m 644 re2/filtered_re2.h re2/re2.h re2/set.h re2/stringpiece.h re2/variadic_function.h  /home/sal/src/iwkse/rethinkdb/build/external/re2_2015-11-01/include/re2
+install obj/libre2.a /home/sal/src/iwkse/rethinkdb/build/external/re2_2015-11-01/lib/libre2.a
+install obj/so/libre2.so /home/sal/src/iwkse/rethinkdb/build/external/re2_2015-11-01/lib/libre2.so.0.0.0
+ln -sf libre2.so.0.0.0 /home/sal/src/iwkse/rethinkdb/build/external/re2_2015-11-01/lib/libre2.so.0
+ln -sf libre2.so.0.0.0 /home/sal/src/iwkse/rethinkdb/build/external/re2_2015-11-01/lib/libre2.so
+sed -e "s#@prefix@#/home/sal/src/iwkse/rethinkdb/build/external/re2_2015-11-01#" re2.pc >/home/sal/src/iwkse/rethinkdb/build/external/re2_2015-11-01/lib/pkgconfig/re2.pc
+make[2]: Leaving directory '/home/sal/src/iwkse/rethinkdb/build/external/re2_2015-11-01/build'

@@ -1,0 +1,370 @@
++ pkg_depends_env
+++ pkg_depends
+++ true
++ pkg_install-include
++ in_dir /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src find . -name '*.h'
++ local dir=/home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src
++ shift
++ read -r file
++ cd /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src
++ find . -name '*.h'
+++ dirname ./google/protobuf/stubs/atomicops_internals_x86_gcc.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/stubs/atomicops_internals_x86_gcc.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs/atomicops_internals_x86_gcc.h
++ read -r file
+++ dirname ./google/protobuf/stubs/atomicops_internals_arm_qnx.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/stubs/atomicops_internals_arm_qnx.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs/atomicops_internals_arm_qnx.h
++ read -r file
+++ dirname ./google/protobuf/stubs/common.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/stubs/common.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs/common.h
++ read -r file
+++ dirname ./google/protobuf/stubs/strutil.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/stubs/strutil.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs/strutil.h
++ read -r file
+++ dirname ./google/protobuf/stubs/stringprintf.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/stubs/stringprintf.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs/stringprintf.h
++ read -r file
+++ dirname ./google/protobuf/stubs/map-util.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/stubs/map-util.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs/map-util.h
++ read -r file
+++ dirname ./google/protobuf/stubs/hash.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/stubs/hash.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs/hash.h
++ read -r file
+++ dirname ./google/protobuf/stubs/atomicops_internals_pnacl.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/stubs/atomicops_internals_pnacl.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs/atomicops_internals_pnacl.h
++ read -r file
+++ dirname ./google/protobuf/stubs/atomicops_internals_mips_gcc.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/stubs/atomicops_internals_mips_gcc.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs/atomicops_internals_mips_gcc.h
++ read -r file
+++ dirname ./google/protobuf/stubs/once.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/stubs/once.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs/once.h
++ read -r file
+++ dirname ./google/protobuf/stubs/atomicops_internals_macosx.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/stubs/atomicops_internals_macosx.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs/atomicops_internals_macosx.h
++ read -r file
+++ dirname ./google/protobuf/stubs/template_util.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/stubs/template_util.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs/template_util.h
++ read -r file
+++ dirname ./google/protobuf/stubs/atomicops_internals_x86_msvc.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/stubs/atomicops_internals_x86_msvc.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs/atomicops_internals_x86_msvc.h
++ read -r file
+++ dirname ./google/protobuf/stubs/atomicops.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/stubs/atomicops.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs/atomicops.h
++ read -r file
+++ dirname ./google/protobuf/stubs/atomicops_internals_atomicword_compat.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/stubs/atomicops_internals_atomicword_compat.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs/atomicops_internals_atomicword_compat.h
++ read -r file
+++ dirname ./google/protobuf/stubs/type_traits.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/stubs/type_traits.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs/type_traits.h
++ read -r file
+++ dirname ./google/protobuf/stubs/platform_macros.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/stubs/platform_macros.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs/platform_macros.h
++ read -r file
+++ dirname ./google/protobuf/stubs/substitute.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/stubs/substitute.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs/substitute.h
++ read -r file
+++ dirname ./google/protobuf/stubs/atomicops_internals_arm_gcc.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/stubs/atomicops_internals_arm_gcc.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs/atomicops_internals_arm_gcc.h
++ read -r file
+++ dirname ./google/protobuf/stubs/stl_util.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/stubs/stl_util.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/stubs/stl_util.h
++ read -r file
+++ dirname ./google/protobuf/text_format.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/text_format.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/text_format.h
++ read -r file
+++ dirname ./google/protobuf/extension_set.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/extension_set.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/extension_set.h
++ read -r file
+++ dirname ./google/protobuf/descriptor.pb.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/descriptor.pb.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/descriptor.pb.h
++ read -r file
+++ dirname ./google/protobuf/io/package_info.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/io
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/io/package_info.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/io/package_info.h
++ read -r file
+++ dirname ./google/protobuf/io/coded_stream.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/io
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/io/coded_stream.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/io/coded_stream.h
++ read -r file
+++ dirname ./google/protobuf/io/zero_copy_stream.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/io
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/io/zero_copy_stream.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/io/zero_copy_stream.h
++ read -r file
+++ dirname ./google/protobuf/io/gzip_stream.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/io
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/io/gzip_stream.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/io/gzip_stream.h
++ read -r file
+++ dirname ./google/protobuf/io/zero_copy_stream_impl.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/io
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/io/zero_copy_stream_impl.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/io/zero_copy_stream_impl.h
++ read -r file
+++ dirname ./google/protobuf/io/zero_copy_stream_impl_lite.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/io
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/io/zero_copy_stream_impl_lite.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/io/zero_copy_stream_impl_lite.h
++ read -r file
+++ dirname ./google/protobuf/io/printer.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/io
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/io/printer.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/io/printer.h
++ read -r file
+++ dirname ./google/protobuf/io/tokenizer.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/io
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/io/tokenizer.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/io/tokenizer.h
++ read -r file
+++ dirname ./google/protobuf/io/coded_stream_inl.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/io
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/io/coded_stream_inl.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/io/coded_stream_inl.h
++ read -r file
+++ dirname ./google/protobuf/generated_message_util.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/generated_message_util.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/generated_message_util.h
++ read -r file
+++ dirname ./google/protobuf/testing/file.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/testing
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/testing/file.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/testing/file.h
++ read -r file
+++ dirname ./google/protobuf/testing/googletest.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/testing
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/testing/googletest.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/testing/googletest.h
++ read -r file
+++ dirname ./google/protobuf/wire_format.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/wire_format.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/wire_format.h
++ read -r file
+++ dirname ./google/protobuf/wire_format_lite_inl.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/wire_format_lite_inl.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/wire_format_lite_inl.h
++ read -r file
+++ dirname ./google/protobuf/package_info.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/package_info.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/package_info.h
++ read -r file
+++ dirname ./google/protobuf/test_util.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/test_util.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/test_util.h
++ read -r file
+++ dirname ./google/protobuf/test_util_lite.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/test_util_lite.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/test_util_lite.h
++ read -r file
+++ dirname ./google/protobuf/service.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/service.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/service.h
++ read -r file
+++ dirname ./google/protobuf/descriptor_database.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/descriptor_database.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/descriptor_database.h
++ read -r file
+++ dirname ./google/protobuf/message.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/message.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/message.h
++ read -r file
+++ dirname ./google/protobuf/compiler/plugin.pb.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/plugin.pb.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/plugin.pb.h
++ read -r file
+++ dirname ./google/protobuf/compiler/plugin.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/plugin.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/plugin.h
++ read -r file
+++ dirname ./google/protobuf/compiler/code_generator.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/code_generator.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/code_generator.h
++ read -r file
+++ dirname ./google/protobuf/compiler/package_info.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/package_info.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/package_info.h
++ read -r file
+++ dirname ./google/protobuf/compiler/zip_writer.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/zip_writer.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/zip_writer.h
++ read -r file
+++ dirname ./google/protobuf/compiler/importer.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/importer.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/importer.h
++ read -r file
+++ dirname ./google/protobuf/compiler/parser.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/parser.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/parser.h
++ read -r file
+++ dirname ./google/protobuf/compiler/java/java_extension.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/java
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/java/java_extension.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/java/java_extension.h
++ read -r file
+++ dirname ./google/protobuf/compiler/java/java_file.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/java
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/java/java_file.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/java/java_file.h
++ read -r file
+++ dirname ./google/protobuf/compiler/java/java_enum_field.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/java
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/java/java_enum_field.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/java/java_enum_field.h
++ read -r file
+++ dirname ./google/protobuf/compiler/java/java_primitive_field.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/java
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/java/java_primitive_field.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/java/java_primitive_field.h
++ read -r file
+++ dirname ./google/protobuf/compiler/java/java_message_field.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/java
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/java/java_message_field.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/java/java_message_field.h
++ read -r file
+++ dirname ./google/protobuf/compiler/java/java_message.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/java
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/java/java_message.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/java/java_message.h
++ read -r file
+++ dirname ./google/protobuf/compiler/java/java_service.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/java
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/java/java_service.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/java/java_service.h
++ read -r file
+++ dirname ./google/protobuf/compiler/java/java_string_field.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/java
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/java/java_string_field.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/java/java_string_field.h
++ read -r file
+++ dirname ./google/protobuf/compiler/java/java_enum.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/java
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/java/java_enum.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/java/java_enum.h
++ read -r file
+++ dirname ./google/protobuf/compiler/java/java_doc_comment.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/java
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/java/java_doc_comment.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/java/java_doc_comment.h
++ read -r file
+++ dirname ./google/protobuf/compiler/java/java_helpers.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/java
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/java/java_helpers.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/java/java_helpers.h
++ read -r file
+++ dirname ./google/protobuf/compiler/java/java_field.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/java
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/java/java_field.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/java/java_field.h
++ read -r file
+++ dirname ./google/protobuf/compiler/java/java_generator.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/java
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/java/java_generator.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/java/java_generator.h
++ read -r file
+++ dirname ./google/protobuf/compiler/mock_code_generator.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/mock_code_generator.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/mock_code_generator.h
++ read -r file
+++ dirname ./google/protobuf/compiler/subprocess.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/subprocess.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/subprocess.h
++ read -r file
+++ dirname ./google/protobuf/compiler/cpp/cpp_file.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/cpp
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/cpp/cpp_file.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/cpp/cpp_file.h
++ read -r file
+++ dirname ./google/protobuf/compiler/cpp/cpp_service.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/cpp
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/cpp/cpp_service.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/cpp/cpp_service.h
++ read -r file
+++ dirname ./google/protobuf/compiler/cpp/cpp_string_field.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/cpp
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/cpp/cpp_string_field.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/cpp/cpp_string_field.h
++ read -r file
+++ dirname ./google/protobuf/compiler/cpp/cpp_field.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/cpp
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/cpp/cpp_field.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/cpp/cpp_field.h
++ read -r file
+++ dirname ./google/protobuf/compiler/cpp/cpp_message.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/cpp
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/cpp/cpp_message.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/cpp/cpp_message.h
++ read -r file
+++ dirname ./google/protobuf/compiler/cpp/cpp_options.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/cpp
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/cpp/cpp_options.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/cpp/cpp_options.h
++ read -r file
+++ dirname ./google/protobuf/compiler/cpp/cpp_enum_field.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/cpp
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/cpp/cpp_enum_field.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/cpp/cpp_enum_field.h
++ read -r file
+++ dirname ./google/protobuf/compiler/cpp/cpp_generator.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/cpp
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/cpp/cpp_generator.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/cpp/cpp_generator.h
++ read -r file
+++ dirname ./google/protobuf/compiler/cpp/cpp_enum.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/cpp
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/cpp/cpp_enum.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/cpp/cpp_enum.h
++ read -r file
+++ dirname ./google/protobuf/compiler/cpp/cpp_unittest.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/cpp
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/cpp/cpp_unittest.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/cpp/cpp_unittest.h
++ read -r file
+++ dirname ./google/protobuf/compiler/cpp/cpp_message_field.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/cpp
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/cpp/cpp_message_field.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/cpp/cpp_message_field.h
++ read -r file
+++ dirname ./google/protobuf/compiler/cpp/cpp_helpers.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/cpp
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/cpp/cpp_helpers.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/cpp/cpp_helpers.h
++ read -r file
+++ dirname ./google/protobuf/compiler/cpp/cpp_extension.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/cpp
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/cpp/cpp_extension.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/cpp/cpp_extension.h
++ read -r file
+++ dirname ./google/protobuf/compiler/cpp/cpp_primitive_field.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/cpp
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/cpp/cpp_primitive_field.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/cpp/cpp_primitive_field.h
++ read -r file
+++ dirname ./google/protobuf/compiler/command_line_interface.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/command_line_interface.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/command_line_interface.h
++ read -r file
+++ dirname ./google/protobuf/compiler/python/python_generator.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/python
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/compiler/python/python_generator.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/compiler/python/python_generator.h
++ read -r file
+++ dirname ./google/protobuf/wire_format_lite.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/wire_format_lite.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/wire_format_lite.h
++ read -r file
+++ dirname ./google/protobuf/generated_enum_reflection.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/generated_enum_reflection.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/generated_enum_reflection.h
++ read -r file
+++ dirname ./google/protobuf/dynamic_message.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/dynamic_message.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/dynamic_message.h
++ read -r file
+++ dirname ./google/protobuf/reflection_ops.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/reflection_ops.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/reflection_ops.h
++ read -r file
+++ dirname ./google/protobuf/generated_message_reflection.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/generated_message_reflection.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/generated_message_reflection.h
++ read -r file
+++ dirname ./google/protobuf/message_lite.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/message_lite.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/message_lite.h
++ read -r file
+++ dirname ./google/protobuf/descriptor.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/descriptor.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/descriptor.h
++ read -r file
+++ dirname ./google/protobuf/unknown_field_set.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/unknown_field_set.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/unknown_field_set.h
++ read -r file
+++ dirname ./google/protobuf/repeated_field.h
++ mkdir -p /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf
++ cp -af /home/sal/src/iwkse/rethinkdb/external/protobuf_2.5.0/src/./google/protobuf/repeated_field.h /home/sal/src/iwkse/rethinkdb/build/external/protobuf_2.5.0/include/./google/protobuf/repeated_field.h
++ read -r file
