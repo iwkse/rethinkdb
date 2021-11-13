@@ -3,6 +3,11 @@
 [RethinkDB](https://www.rethinkdb.com)
 ======================================
 
+Warning
+-------
+This fork is related to #6989 so it builds especifically for Debian 11 (Bullseye) and for the version 2.4.1.
+It might not work with other distributions.
+It's fixed to work with GCC only, I didn't try at all with clang.
 
 What is RethinkDB?
 ------------------
