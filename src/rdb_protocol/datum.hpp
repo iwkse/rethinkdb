@@ -23,6 +23,8 @@
 // Enough precision to reconstruct doubles from their decimal representations.
 // Unlike the late DBLPRI, this lacks a percent sign.
 #define PR_RECONSTRUCTABLE_DOUBLE ".20g"
+#define BOOST_LITTLE_ENDIAN
+#define BOOST_ENDIAN_DEPRECATED_NAMES
 
 class Datum;
 

@@ -12,7 +12,7 @@
 #include <iterator>
 
 #include "errors.hpp"
-#include <boost/detail/endian.hpp>
+#include <boost/endian/endian.hpp>
 
 #include "arch/runtime/coroutines.hpp"
 #include "cjson/json.hpp"
